@@ -228,25 +228,32 @@ span.text-red {
   background-color: white;
   color: red;
   border: none;
-  margin-top: 40px;
+  margin-left: 15px;
+  /* margin-top: 40px; */
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
 }
+.left {
+  z-index: 2;
+}
+.right {
+  z-index: 2;
+}
 .banner-desc .left h3 {
   font-weight: 900;
   font-size: 80px;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 .banner-desc .left p {
   margin: 18px;
 }
 .footer-banner-image {
   position: absolute;
-  /* top: -35%;
-  left: 8%; */
-  top: -25%;
-  left: 25%;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .banner-desc .right {
   line-height: 1.4;
@@ -254,8 +261,10 @@ span.text-red {
 .banner-desc .right h3 {
   font-weight: 800;
   font-size: 60px;
+  margin-left: 15px;
 }
 .banner-desc .right p {
+  margin: 18px;
   font-size: 18px;
 }
 .banner-desc .right .company-desc {
@@ -628,11 +637,11 @@ span.text-red {
     margin-top: 80px;
   }
   .footer-banner-image {
-    width: 77%;
-    left: 30%;
-    top: 6%;
-    height: 56%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
+
   .banner-desc .left h3 {
     font-weight: 900;
     font-size: 50px;
