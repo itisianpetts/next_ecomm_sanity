@@ -9,7 +9,7 @@ const HeroBanner = ({ heroBanner: { smallText, midText, largeText1, image, produ
         <h3>{midText}</h3>
         <h1>{largeText1}</h1>
         <img src={urlFor(image)} alt='headphones' className='hero-banner-image' />
-        <div className=''>
+        <div>
           <Link href={`/product/${product}`}>
             <button type='button'>{buttonText}</button>
           </Link>

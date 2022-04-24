@@ -632,9 +632,14 @@ span.text-red {
     top: -2%;
     right: -6%;
   }
+  .hero-banner-container h1 {
+    padding-left: 20px;
+  }
+
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
+    padding-top: 50px;
   }
   .footer-banner-image {
     top: 50%;
@@ -687,7 +692,7 @@ span.text-red {
     height: 350px;
   }
   .cart-container {
-    width: 415px;
+    max-width: 400px;
     padding: 4px;
   }
   .cart-heading {
