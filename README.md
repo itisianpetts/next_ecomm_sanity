@@ -1,6 +1,6 @@
 # Next E-Comm
 
-##### Frontend: Next.JS, React Icons, Canvas-Confetti
+##### Frontend: Next.JS, React Icons, Canvas-Confetti & Stripe Payment
 ##### CMS: Sanity
 - Deployed via Vercel -  https://next-ecomm-sanity-gbnst99w7-itisianpetts.vercel.app/
 
